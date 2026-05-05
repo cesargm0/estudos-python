@@ -1,0 +1,17 @@
+#Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo. 
+x = int(input('Quer ver qual tabuada? '))
+while x > 0:
+    print ('-------------------------------')
+    print (f'{x} x 1 = {x*1}')
+    print (f'{x} x 2 = {x*2}')
+    print (f'{x} x 3 = {x*3}')
+    print (f'{x} x 4 = {x*4}')
+    print (f'{x} x 5 = {x*5}')
+    print (f'{x} x 6 = {x*6}')
+    print (f'{x} x 7 = {x*7}')
+    print (f'{x} x 8 = {x*8}')
+    print (f'{x} x 9 = {x*9}')
+    print (f'{x} x 10 = {x*10}')
+    print ('-------------------------------')
+    x = int(input('Quer ver qual tabuada? '))
+print ('Programa encerrado!')
